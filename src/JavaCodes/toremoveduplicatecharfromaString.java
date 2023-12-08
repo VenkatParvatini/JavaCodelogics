@@ -15,7 +15,8 @@ public class toremoveduplicatecharfromaString {
 			for(char ch: set) {
 				
 				System.out.print(ch);
-			}
+				}
+			
 		}
 	}
 
