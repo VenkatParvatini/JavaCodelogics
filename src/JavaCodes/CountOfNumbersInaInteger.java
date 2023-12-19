@@ -21,7 +21,14 @@ public class CountOfNumbersInaInteger {
 	}
 	
 	public static void main(String[] args) {
-		numberscount("12345");
+		//numberscount("12345");
+		
+		String s = "12345";
+		
+		
+		int sum = s.chars().map(Character::getNumericValue).sum();
+		System.out.println(sum);
+	
 	}
 
 }
