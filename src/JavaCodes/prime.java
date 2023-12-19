@@ -6,12 +6,12 @@ public class prime {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		if(n%n==0||n%1==0) {
-			System.out.println(n+" is a prime number");
+		for(int i =1;i<=n;i++) {
+		if(i%i==0&&i%1==0&&i%2==1) {
+			System.out.println(i);
 		}
-		else {
-			System.out.println("not a prime");
-		}
+		
 	}
 
+	}
 }
